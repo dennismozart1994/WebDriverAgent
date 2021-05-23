@@ -1,3 +1,12 @@
+# iOS UI Automation Framework
+This is a fork from the WebDriverAgent from Facebook repo, with the intention of using the IntegrationApp as a template to practice and learn how to implement UI automated tests for iOS.
+
+## IntegrationAppUITests scheme
+That's the scheme where the UI Automation framework and its function lies. To understand the thoughts behing of it, follow the blog posts under my personal blog [Nil Skills](https://nilskills.wordpress.com/category/quality-engineering/automation/ios/)
+
+# Original Facebook Description and license for the project
+All WebDriverAgent code, instructions and license can be found bellow:
+
 # WebDriverAgent [![GitHub license](https://img.shields.io/badge/license-BSD-lightgrey.svg)](LICENSE) [![Build Status](https://travis-ci.org/facebook/WebDriverAgent.svg?branch=master)](https://travis-ci.org/facebook/WebDriverAgent) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 WebDriverAgent is a [WebDriver server](https://w3c.github.io/webdriver/webdriver-spec.html) implementation for iOS that can be used to remote control iOS devices. It allows you to launch & kill applications, tap & scroll views or confirm view presence on a screen. This makes it a perfect tool for application end-to-end testing or general purpose device automation. It works by linking `XCTest.framework` and calling Apple's API to execute commands directly on a device. WebDriverAgent is developed and used at Facebook for end-to-end testing and is successfully adopted by [Appium](http://appium.io).
