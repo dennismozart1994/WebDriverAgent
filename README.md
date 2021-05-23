@@ -4,8 +4,8 @@ This is a fork from the WebDriverAgent from Facebook repo, with the intention of
 ## IntegrationAppUITests scheme
 That's the scheme where the UI Automation framework and its function lies. To understand the thoughts behing of it, follow the blog posts under my personal blog [Nil Skills](https://nilskills.wordpress.com/category/quality-engineering/automation/ios/)
 
-# Original Facebook Description and license for the project
-All WebDriverAgent code, instructions and license can be found bellow:
+## Original Facebook Description and license for the project
+All WebDriverAgent code, instructions and license can be found bellow.
 
 # WebDriverAgent [![GitHub license](https://img.shields.io/badge/license-BSD-lightgrey.svg)](LICENSE) [![Build Status](https://travis-ci.org/facebook/WebDriverAgent.svg?branch=master)](https://travis-ci.org/facebook/WebDriverAgent) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
