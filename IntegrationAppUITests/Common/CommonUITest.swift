@@ -32,7 +32,6 @@ class CommonUITest: XCTestCase {
 
     // Launch the App
     app = XCUIApplication()
-    XCTestObservationCenter.shared.addTestObserver(CustomObserver())
     app.launchEnvironment = ["UI_TEST": "YES"]
     app.launch()
     

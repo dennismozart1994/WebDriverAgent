@@ -182,7 +182,7 @@ extension XCUIElement {
    - Parameter text: input to type into the Text Field
    */
   func fullfillWith(text: String) {
-      self.tap()
+      self.expectAndTap(timeout: 15, failMessage: "Fail to tap on Text Field")
       self.typeText(text + "\n")
   }
   
@@ -194,9 +194,9 @@ extension XCUIElement {
    */
   func numpadEntry(testApp: XCUIApplication, numberInput: String) {
     for char in numberInput{
-        testApp.buttons[String(char)].firstMatch.tap()
+        testApp.buttons[String(char)].firstMatch.expectAndTap(timeout: 15, failMessage: "Fail to tap on \(String(char)) button")
     }
-    testApp.buttons["done"].firstMatch.tap()
+    testApp.buttons["done"].firstMatch.expectAndTap(timeout: 15, failMessage: "Fail to tap on Done button")
   }
 
 }
